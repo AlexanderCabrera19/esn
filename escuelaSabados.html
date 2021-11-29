@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela SobreNatural</title>
+    <link
+  href="https://unpkg.com/sanitize.css"
+  rel="stylesheet"
+/>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/c97397ad43.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body id="escuelaPage">
+    <div class="container-nativo">
+        <header>
+            <div class="contenedorLogo">
+                <a href="./index.html"><img src="./assets/esn-big.png" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <!-- <li><a href="./nosotros.html">Quiénes Somos</a></li> -->
+                    <li id="escuelas">
+                        <a href="javascript:void(0)">Inscripciones</a>
+                        <ul>
+                            <li><a href="./escuelaSabados.html">ESN Primer año</a></li>
+                            <li><a href="./escuelaTiempoCompleto.html">ESN Segundo Año</a></li>
+                            <li><a href="./pasantia.html">ESN Tercer Año</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="./index.html#testimonio1">Testimonios</a></li> -->
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button id="btnMenu"><i class="fas fa-bars"></i></button>
+        </header>
+        <div class="main">
+            <span id="preSlider"></span>
+            <section class="bannerEscuela">
+                <h2>ESN Primer Año</h2>
+            </section>
+            <section class="escuelaIntro">
+                <h3>Tu primer año con nosotros</h3>
+                <p>
+                    Nuestro programa de primer año se enfoca en brindarle a cada estudiante enseñanzas, ministración y herramientas para una comprensión más profunda de su identidad en Cristo. Durante este año nos enfocaremos más en temas de identidad, intimidad y un estilo de vida sobrenatural. <br> <br>
+                    Durante este año nuestro objetivo es que cada estudiante pueda crecer en su relación con Dios, para que cada uno de ellos abracen su identidad en Jesús, pueda caminar en el poder del Espíritu Santo, y desarrolle una mayor pasión por la adoración y por una comunidad saludable.
+
+                </p>
+            </section>
+
+            <section class="aranceles">
+                <h2>Cuadro Comparativo</h2>
+                <div class="datos-escuelas">
+                    <div class="arancel">
+                        <h3>Sábados</h3>
+                        <ul>
+                            <li><p><strong>Inicio de clases:</strong> 12 de Marzo 2022</p></li>
+                            <li><p><strong>Vacaciones de Invierno:</strong> 23 al 30 de Julio 2022</p></li>
+                            <li><p><strong>Finalización:</strong> 26 de Noviembre 2022</p></li>
+                            <li><p><strong>Graduación de Primer Año:</strong> Sábado, 3 de Diciembre 2022</p></li>
+                            <li><p><strong>Graduación de Segundo Año:</strong> Viernes, 2 de Diciembre 2022</p></li>
+                            <li><p><strong>Carga Horaria:</strong> 3 horas semanales</p></li>
+                            <li><p><strong>Días:</strong> Cada Sábado</p></li>
+                            <li><p><strong>Horario:</strong> 10 a 13hs</p></li>
+                            <li><p><strong>Contenido</strong></p>
+                                <ul>
+                                    <li>Programa limitado y puntual.</li>
+                                    <li>Encuentros de tribu cada 15 días.</li>
+                                    <li>Clases cada 15 días.</li>
+                                    <li>Adoración más limitada.</li>
+                                </ul>
+                            </li>
+                            <li><p><strong>Precio:</strong> $4000 pesos mensuales</p></li>
+                            <li><p><strong>Libros:</strong> de 1 a 2 libros anuales</p></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="datos-escuelas">
+                    <div class="arancel">
+                        <h3>Intensivo</h3>
+                        <ul>
+                            <li><p><strong>Inicio de clases:</strong> 5 de abril 2022</p></li>
+                            <li><p><strong>Periodo de vacaciones:</strong> 18 al 30 de Julio 2022</p></li>
+                            <li><p><strong>Finalización:</strong> 26 de noviembre 2022</p></li>
+                            <li><p><strong>Graduación:</strong> A confirmar</p></li>
+                            <li><p><strong>Carga Horaria:</strong> 11 horas semanales</p></li>
+                            <li><p><strong>Días:</strong> Martes a viernes y cada 15 días un sábado.</p></li>
+                            <li><p><strong>Horario:</strong> 17:00 - 19:00  hs y cada 15 días, sábados 10 - 13hs</p></li>
+                            <li><p><strong>Contenido</strong></p>
+                                <ul>
+                                    <li>Mayor profundidad en cada temática.</li>
+                                    <li>Mayor desarrollo de enseñanzas.</li>
+                                    <li>Clases bíblicas.</li>
+                                    <li>Programa de profecía y sanidad.</li>
+                                    <li>Momentos de adoración amplios.</li>
+                                    <li>Acompañamiento pastoral personalizado y exclusivo.</li>
+                                    <li>Invitados especiales y visitas continuas de la mesa pastoral</li>
+                                </ul>
+                            </li>
+                            <li><p><strong>Precio:</strong> $6000 pesos mensuales</p></li>
+                            <li><p><strong>Libros:</strong>  3 a 4 libros anuales</p></li>
+                            <li><p><strong>VIAJE MISIONERO:</strong> Uno por año (no incluido en el precio mensual)</p></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="intro">
+                <div class="introRight">
+                    <img src="./assets/LANZAMIENTO-2022_3.jpg" alt="">
+                </div>
+                <div class="introLeft">
+                    <h3 class="titulo-modalidad">Primer año - Intensivo</h3>
+                    <p>
+                        Nuestra modalidad intensiva conlleva una mayor carga horaria semanal. Esta opción es ideal para aquellos hambrientos que deseen ir más profundo, pero a la vez es lo suficientemente flexible como para que puedas tener un trabajo por la mañana, o continuar tus estudios <br>
+                        A diferencia de nuestra escuela de los sábados, el programa semanal del intensivo tiene una mayor exclusividad. Con está modalidad  intensiva nos proyectamos para ofrecerle a cada estudiante un mayor contenido de enseñanzas y adoración, así como un mentoreo más exclusivo y continuo. 
+                    </p>
+                    <a href="https://airtable.com/shr0JlgeJtDlvQQkt" class="aplicar-escuelas">Aplicar ahora</a>
+                </div>
+            </section>
+
+            <section class="intro">
+                <div class="introLeft">
+                    <h3 class="titulo-modalidad">Primer año - Sábados</h3>
+                    <p>
+                        Esta opción es para personas que estén trabajando tiempo completo y que actualmente están sirviendo en su iglesia local. La escuela de los sábados está compuesta por una cursada de menor carga horaria y menos contenido en cada clase a comparación del programa intensivo.<br>
+                        Las clases se dictan exclusivamente los sábados a la mañana, durante 3 horas. Esto permite que en la semana puedas seguir estudiando o trabajando y así continuar trayendo la realidad del Cielo a tu lugar de influencia de lunes a viernes.
+                    </p>
+                    <a href="https://airtable.com/shrsg5RkcYo3LlXEr" class="aplicar-escuelas">Aplicar ahora</a>
+                </div>
+
+                <div class="introRight">
+                    <img src="./assets/LANZAMIENTO-2022.jpg" alt="">
+                </div>
+            </section>
+
+            <section class="mensaje">
+                <div class="mensajeLeft">
+                    <h3>Al alcance de todos</h3>
+                    <p>
+                        Como hijos de Dios estamos destinados a transformar la tierra y redimir el destino de la humanidad. La victoria ya fue ganada en la cruz pero ahora depende de nosotros que Jesús reciba la recompensa por su sacrificio. 
+                        En la escuela aprenderás a colaborar con el Cielo para poder cumplir tu misión en la tierra.
+                        No hay límites para lo que Dios puede hacer. ¿Lo creés? 
+                        
+                    </p>
+                </div>
+                <div class="mensajeRight">
+                    <img src="./assets/14.jpg" alt="">
+                </div>
+            </section>
+            <section class="cajaInformativa">
+                <h3>¿Qué podes esperar?</h3>
+
+                <div class="cajas">
+                    <div class="caja">
+                        <img src="./assets/3.jpg" alt="">
+                        <h4>Ser amante de la presencia</h4>
+                        <p>
+                            Fuimos creados para ser adoradores y vivir una vida de adoración las 24 horas, los siete días de la semana. Uno de los valores centrales de nuestra escuela es valorar la Presencia y aprender a cultivarla para tener una vida llena de la paz del Espíritu Santo y Su abundancia.
+                        </p>
+                    </div>
+                    <div class="caja">
+                        <img src="./assets/6.jpg" alt="">
+                        <h4>Transformación</h4>
+                        <p>
+                            Nuestro objetivo es que crezcas en tu identidad y carácter. Creemos en el gran plan que Dios tiene para tu vida y queremos ayudarte a desarrollar y potenciar todo lo que Él ya depositó en vos.
+                        </p>
+                    </div>
+                    <div class="caja">
+                        <img src="./assets/4.jpg" alt="">
+                        <h4>Tu fe será expandida</h4>
+                        <p>
+                            Nuestra escuela está diseñada para que puedas practicar de manera constante todo lo que aprendas sábado a sábado. Queremos brindarte un espacio seguro para tomar riesgos, crecer y ser activado en lo sobrenatural.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="staff">
+                <h3>NUESTROS LÍDERES PRINCIPALES</h3>
+                <div class="miembros">
+                    <div class="miembro">
+                        <div class="contenedorImagen">
+                            <img src="./assets/OCAC.jpg" alt="">
+                        </div>
+                        <h4>Osvaldo y Alejandra Carnival</h4>
+                        <p>Fundadores y Pastores</p>
+                    </div>
+                    <div class="miembro">
+                        <div class="contenedorImagen">
+                            <img src="./assets/becky.jpg" alt="">
+                        </div>
+                        <h4>Becky Babcock</h4>
+                        <p>Directora</p>
+                    </div>
+                    <div class="miembro">
+                        <div class="contenedorImagen">
+                            <img src="./assets/dan.jpg" alt="">
+                        </div>
+                        <h4>Dan Carnival</h4>
+                        <p>Co-Director</p>
+                    </div>
+                </div>
+            </section> -->
+            <!-- <div class="escuelaInscribirse">
+                <h3>¡Inscribite Hoy!</h3>
+                <p>Te animamos a que puedas aplicar para la escuela de los SABADOS.</p>
+                <a href="https://forms.gle/9qUSCZgt92rQF2Mz9">Aplicar</a>
+            </div> -->
+        </div>
+        <footer>
+            <div class="contenedorFooter">
+                <div class="col1">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Inicio</a></li>
+                            <!-- <li><a href="./nosotros.html">Quiénes somos</a></li> -->
+                            <li><a href="./index.html#escuelas-link">Inscripciones</a></li>
+                            <!-- <li><a href="./index.html#testimonio1">Testimonios</a></li> -->
+                            <li><a href="./contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col2">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html#escuelas-link">Aplicar</a></li>
+                            <li><a href="./faq.html">Preguntas Frecuentes</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footerSociales">
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/esn.argentina"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/esn.argentina/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCYE5mYK3UJt6jHq3VNph2LA"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="lineaFooter">
+                <p>© 2022 ESN. Todos los derechos reservados. Buenos Aires, Argentina.</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $('.fade').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+        });
+        $('.contenedorNotas').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 500,
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $('#btnMenu').click(function(){
+            const $menu = $('header nav');
+            if($menu.hasClass("menuActivo")){
+                console.log('le saque la aclase activo');
+                $menu.removeClass("menuActivo");
+            }else {
+                $menu.addClass("menuActivo");
+            }
+        });
+
+        const $escuelas = $('#escuelas');
+        const mediaQuery = window.matchMedia('(max-width: 768px)');
+        if(mediaQuery.matches){
+        $('#escuelas').click(function(){
+            if($escuelas.hasClass('desplegado')){
+                $escuelas.removeClass('desplegado');
+            }else {
+                $escuelas.addClass('desplegado');
+            }
+        });
+        }
+    </script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
