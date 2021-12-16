@@ -1677,6 +1677,7 @@ form {
 }
 
 .aplicar-escuelas {
+  margin-bottom: 10px;
   background-color: #3a687a!important;
   color: #fff!important;
   border: 2px solid #3a687a;
